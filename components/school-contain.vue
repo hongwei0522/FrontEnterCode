@@ -6,7 +6,7 @@
 
         <div class="schoolpage-title">
             <div>{{ this.title }}</div>
-            <div>閱讀私角落　校園攝影展</div>
+            <div>Front-Enter-前端轉職資訊</div>
         </div>
 
         <div class="schoolpage-swiper-box">
@@ -42,7 +42,7 @@
         <div class="schoolpage-back">
         <nuxt-link to="/">
             <div class="schoolpage-back-btn">
-            <div>看其他學校</div>
+            <div>看其他地區</div>
             <img class="schoolpage-back-icon" src="@/assets/img/icon/go-arrow.png" alt="arrow back">
             </div>
         </nuxt-link>
@@ -215,7 +215,7 @@ export default {
       background-position-x: center;
       background-position-y: center;
       width: 404px;
-      height: 448px;
+      height: 480px;
     }
 
     &-box {
@@ -241,8 +241,9 @@ export default {
     }
 
     &-desc {
-      font-size: 18px;
+      font-size: 16px;
       margin-top: 0px;
+      width: 283px;
     }
 
     &-social {
@@ -328,8 +329,8 @@ export default {
   &-title {
     flex-direction: column;
     align-items: center;
-    margin: 60px 0px 0px;
-    font-size: 30px;
+    margin: 20px 0px 0px;
+    font-size: 24px;
 
     & div:first-child {
       margin-right: 0px;
@@ -350,7 +351,7 @@ export default {
     &-bg {
       margin: auto;
       width: 300px;
-      height: 320px;
+      height: 360px;
     }
 
     &-box {
@@ -358,6 +359,7 @@ export default {
     }
 
     &-img {
+      margin-top: 10px;
       width: 210px;
       height: 210px;
     }
@@ -367,7 +369,8 @@ export default {
     }
 
     &-desc {
-      
+      font-size: 12px;
+      width: 210px;
     }
 
     &-social {

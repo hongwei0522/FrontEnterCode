@@ -5,19 +5,13 @@
       <topBar/>
 
       <div class="index-intro">
-        <div class="index-intro-title">閱讀私角落　校園攝影展</div>
-        <div>
+        <div class="index-intro-title">Front-Enter-前端轉職資訊</div>
           <div class="index-intro-text">
-            <div>有一個角落，可以自由呼吸</div>
-            <div>有一個角落，可以滋養閱讀</div>
+            <div>近年來，社會對於軟體工程師的需求急速增加，全台各地的補習也如雨後</div>
+            <div>春筍般開業， 然而人的時間有限，要如何找到適合自己的學習環境？</div>
+            <div>「Front-Enter」特別針對前端工程的學習資源，進行蒐集、分類， 期待</div>
+            <div>讓有志成為前端工程師的人，找到最適合自己的學習環境。</div>
           </div>
-          <div class="index-intro-text">
-            <div>有一個角落，可以支持我</div>
-            <div>讓陽光灑落，可以孤單不會孤獨</div>
-          </div>
-          <div class="index-intro-text">可以一個人，可以一群人</div>
-          <div class="index-intro-text">我最喜歡的校園空間、支持你的閱讀私角落</div>
-        </div>
       </div>
       <div class="index-rwd-select">
         <selectSption class="index-rwd" />
@@ -248,14 +242,23 @@
         <div class="index-tag">
           <selectSption class="index-desktop" />
             <div class="index-tag-box">
-              <nuxt-link class="index-tag-link" to="/schoolpage">
-                <div class="index-tag-text">#(XXX)高中</div>
+              <nuxt-link class="index-tag-link" to="/northern">
+                <div class="index-tag-text">#CSS</div>
               </nuxt-link>
-              <nuxt-link class="index-tag-link" to="/n01">
-                <div class="index-tag-text">#輔大聖心高中</div>
+              <nuxt-link class="index-tag-link" to="/southern">
+                <div class="index-tag-text">#JS</div>
               </nuxt-link>
-              <nuxt-link class="index-tag-link" to="/n02">
-                <div class="index-tag-text">#臺灣大學</div>
+              <nuxt-link class="index-tag-link" to="/everywhere">
+                <div class="index-tag-text">#RWD</div>
+              </nuxt-link>
+              <nuxt-link class="index-tag-link" to="/northern">
+                <div class="index-tag-text">#JQuery</div>
+              </nuxt-link>
+              <nuxt-link class="index-tag-link" to="/southern">
+                <div class="index-tag-text">#GitHub</div>
+              </nuxt-link>
+              <nuxt-link class="index-tag-link" to="/everywhere">
+                <div class="index-tag-text">#SCSS</div>
               </nuxt-link>
             </div>
         </div>
@@ -283,29 +286,31 @@ export default {
       islandHover: false,
       school: {
         north: [
-          { name: '(XXX)高中', path: '/schoolpage' },
-          { name: '輔大聖心高中', path: '/n01' },
-          { name: '台灣大學', path: '/n02' },
+          { name: '彭彭的課程教學', path: '/northern' },
+          { name: '飛肯設計學院', path: '/northern' },
+          { name: '台大資訊系統訓練班', path: '/northern' },
+          { name: 'AppWorks School', path: '/northern' },
+          { name: '五倍紅寶石', path: '/northern' },
+          { name: 'UXabc', path: '/northern' },
+          { name: '赫綵電腦', path: '/everywhere' },
+          { name: 'Udemy', path: '/everywhere' },
         ],
         middle: [
-          { name: '(XXX)高中', path: '/schoolpage' },
-          { name: '輔大聖心高中', path: '/n01' },
-          { name: '台灣大學', path: '/n02' },
+          { name: '赫綵電腦', path: '/everywhere' },
+          { name: 'Udemy', path: '/everywhere' },
         ],
         south: [
-          { name: '(XXX)高中', path: '/schoolpage' },
-          { name: '輔大聖心高中', path: '/n01' },
-          { name: '台灣大學', path: '/n02' },
+          { name: '六角學院', path: '/southern' },
+          { name: '赫綵電腦', path: '/everywhere' },
+          { name: 'Udemy', path: '/everywhere' },
         ],
         east: [
-          { name: '(XXX)高中', path: '/schoolpage' },
-          { name: '輔大聖心高中', path: '/n01' },
-          { name: '台灣大學', path: '/n02' },
+          { name: '赫綵電腦', path: '/everywhere' },
+          { name: 'Udemy', path: '/everywhere' },
         ],
         island: [
-          { name: '(XXX)高中', path: '/schoolpage' },
-          { name: '輔大聖心高中', path: '/n01' },
-          { name: '台灣大學', path: '/n02' },
+          { name: '赫綵電腦', path: '/everywhere' },
+          { name: 'Udemy', path: '/everywhere' },
         ],
       }
     }
@@ -382,23 +387,7 @@ export default {
 
     &-text {
       font-weight: 100;
-
-      &:nth-child(1) {
-        display: flex;
-        font-weight: 300;
-
-        & div:first-child {
-          margin-right: 50px;
-        }
-      }
-
-      &:nth-child(2) {
-        display: flex;
-
-        & div:first-child {
-          margin-right: 50px;
-        }
-      }
+      text-align: center;
     }
   }
   
@@ -590,28 +579,13 @@ export default {
 
     &-title {
       margin: 20px 0px 20px;
-      font-size: 30px;
+      font-size: 24px;
     }
 
     &-text {
-      font-size: 18px;
-      text-align: center;
+      font-size: 16px;
+      text-align: left;
 
-      &:nth-child(1) {
-        flex-direction: column;
-
-        & div:first-child {
-          margin: 0px;
-        }
-      }
-
-      &:nth-child(2) {
-        flex-direction: column;
-
-        & div:first-child {
-          margin: 0px;
-        }
-      }
     }
   }
 

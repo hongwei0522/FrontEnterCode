@@ -8,13 +8,13 @@
 export default {
   head() {
     return {
-      title: '輔大聖心高中',
+      title: '南部地區',
       meta: [
         { charset: 'utf-8' },
-        { hid: 'og:title'  , property: 'og:title'  , content: '輔大聖心高中' },
+        { hid: 'og:title'  , property: 'og:title'  , content: '南部地區' },
         { hid: 'og:image' , property: 'og:image' , content: require('@/assets/img/work/n-01_s01_01.jpeg') },
-        { hid: 'description', name: 'description', content: '天主教基隆市輔大聖心高級中學' },
-        { hid: 'og:description' , property: 'og:description' , content: '天主教基隆市輔大聖心高級中學' },
+        { hid: 'description', name: 'description', content: '南部地區' },
+        { hid: 'og:description' , property: 'og:description' , content: '南部地區' },
       ],
     }
   },
@@ -27,10 +27,9 @@ export default {
   },
   data () {
     return {
-      title: '輔大聖心高中',
+      title: '南部地區',
       frames: [
-        { img: require('@/assets/img/work/n-01_s01_01.jpeg'), title: '操場也能閱讀？閱讀無限', desc: 'HYC' },
-        { img: require('@/assets/img/work/n-01_s01_02.jpg'), title: '閱在花中', desc: '三口' }
+        { img: require('@/assets/img/work/s01.jpg'), title: '六角學院', desc: '六角學院課程種類齊全，加上線上學習達成高效學習，同時也是帶您學到會的線上課程。' },
       ]
     }
   },

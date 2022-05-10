@@ -1,16 +1,16 @@
 <template>
 
     <div class="topbar">
-        <a href="https://ireader.books.com.tw/" target="_blank">
+        <a href="https://hongwei0522.github.io/gh-pages/" target="_blank">
         <img class="topbar-logo" :src="require('@/assets/img/icon/LOGO.png')" alt="logo">
         </a>
 
-        <a href="https://www.facebook.com/books.youth" target="_blank">
+        <a href="https://www.facebook.com/hongwei0522/" target="_blank">
         <img class="topbar-share" :src="require('@/assets/img/icon/fb.png')" alt="fb">
         </a>
         
-        <a href="https://www.instagram.com/books.youth/" target="_blank">
-        <img class="topbar-share" :src="require('@/assets/img/icon/ig-logo-email.png')" alt="ig">
+        <a href="https://line.me/ti/p/guSQElnN9A" target="_blank">
+        <img class="topbar-share" :src="require('@/assets/img/icon/line-share.png')" alt="ig">
         </a>
     </div>
 
@@ -43,6 +43,8 @@ export default {
 <style lang="scss">
 .topbar{
     margin-top: 28px;
+    display: flex;
+    align-items: center;
 
     &-logo{
       width: 224px;

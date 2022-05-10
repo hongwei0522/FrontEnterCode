@@ -1,5 +1,5 @@
 <template>
-  <el-select v-model="select.current" placeholder="選擇校園">
+  <el-select v-model="select.current" placeholder="選擇地區">
     <el-option
       v-for="option in select.options"
       :key="option.name"
@@ -21,11 +21,11 @@ export default {
   data () {
     return {
       select: {
-        current: '選擇校園',
+        current: '選擇地區',
         options: [
-          { name: '長樂國小', path: '/school' },
-          { name: '輔大聖心高中', path: '/school-n01' },
-          { name: '臺灣大學', path: '/school-n02' },
+          { name: '北部', path: '/northern' },
+          { name: '南部', path: '/southern' },
+          { name: '各地', path: '/everywhere' },
         ]
       }
     }
