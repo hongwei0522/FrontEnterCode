@@ -6,7 +6,7 @@ export default {
   */
   target: 'static',
   router: {
-    base: '/youngbooks/'
+    base: '/FrontEnter/'
   },
   head: {
     title: process.env.npm_package_name || '',
