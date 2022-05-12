@@ -11,10 +11,10 @@ export default {
       title: '南部地區',
       meta: [
         { charset: 'utf-8' },
-        { hid: 'og:title'  , property: 'og:title'  , content: '南部地區' },
-        { hid: 'og:image' , property: 'og:image' , content: require('@/assets/img/work/n-01_s01_01.jpeg') },
-        { hid: 'description', name: 'description', content: '南部地區' },
-        { hid: 'og:description' , property: 'og:description' , content: '南部地區' },
+        { hid: 'og:title'  , property: 'og:title'  , content: 'Front-Enter-前端轉職資訊' },
+        { hid: 'og:image' , property: 'og:image' , content: require('@/assets/img/work/s01.jpg') },
+        { hid: 'description', name: 'description', content: 'Front-Enter-前端轉職資訊' },
+        { hid: 'og:description' , property: 'og:description' , content: 'Front-Enter-前端轉職資訊' },
       ],
     }
   },

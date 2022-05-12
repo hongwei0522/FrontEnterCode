@@ -11,10 +11,10 @@ export default {
       title: '台灣各地',
       meta: [
         { charset: 'utf-8' },
-        { hid: 'og:title'  , property: 'og:title'  , content: '台灣各地' },
-        { hid: 'og:image' , property: 'og:image' , content: require('@/assets/img/work/n-02_u01_01.jpg') },
-        { hid: 'description', name: 'description', content: '台灣各地' },
-        { hid: 'og:description' , property: 'og:description' , content: '台灣各地' },
+        { hid: 'og:title'  , property: 'og:title'  , content: 'Front-Enter-前端轉職資訊' },
+        { hid: 'og:image' , property: 'og:image' , content: require('@/assets/img/work/e01.jpg') },
+        { hid: 'description', name: 'description', content: 'Front-Enter-前端轉職資訊' },
+        { hid: 'og:description' , property: 'og:description' , content: 'Front-Enter-前端轉職資訊' },
       ],
     }
   },
