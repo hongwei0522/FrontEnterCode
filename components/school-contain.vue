@@ -188,7 +188,7 @@ export default {
   &-title {
     display: flex;
     justify-content: center;
-    margin: 40px 0px 100px;
+    margin: 40px 0px 40px;
     font-size: 48px;
 
     & div:first-child {
@@ -198,7 +198,6 @@ export default {
 
   &-swiper-box {
     position: relative;
-    margin-left: 26px;
   }
 
   &-swiper {
@@ -215,7 +214,7 @@ export default {
       background-position-x: center;
       background-position-y: center;
       width: 404px;
-      height: 480px;
+      height: 485px;
     }
 
     &-box {
@@ -241,9 +240,9 @@ export default {
     }
 
     &-desc {
-      font-size: 16px;
-      margin-top: 0px;
       width: 283px;
+      font-size: 18px;
+      margin-top: 0px;
     }
 
     &-social {
@@ -287,6 +286,7 @@ export default {
       }
     }
   }
+
   &-back {
     display: flex;
     justify-content: flex-end;
@@ -329,8 +329,8 @@ export default {
   &-title {
     flex-direction: column;
     align-items: center;
-    margin: 20px 0px 0px;
-    font-size: 24px;
+    margin: 60px 0px 0px;
+    font-size: 26px;
 
     & div:first-child {
       margin-right: 0px;
@@ -351,7 +351,7 @@ export default {
     &-bg {
       margin: auto;
       width: 300px;
-      height: 360px;
+      height: 320px;
     }
 
     &-box {
@@ -359,9 +359,8 @@ export default {
     }
 
     &-img {
-      margin-top: 10px;
       width: 210px;
-      height: 210px;
+      height: 180px;
     }
 
     &-title {
@@ -369,8 +368,8 @@ export default {
     }
 
     &-desc {
-      font-size: 12px;
       width: 210px;
+      font-size: 13px;
     }
 
     &-social {

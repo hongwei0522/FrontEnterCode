@@ -7,10 +7,7 @@
       <div class="index-intro">
         <div class="index-intro-title">Front-Enter-前端轉職資訊</div>
           <div class="index-intro-text">
-            <div>近年來，社會對於軟體工程師的需求急速增加，全台各地的補習也如雨後</div>
-            <div>春筍般開業， 然而人的時間有限，要如何找到適合自己的學習環境？</div>
-            <div>「Front-Enter」特別針對前端工程的學習資源，進行蒐集、分類， 期待</div>
-            <div>讓有志成為前端工程師的人，找到最適合自己的學習環境。</div>
+            <div>近年來，社會對於軟體工程師的需求急速增加，全台各地的補習也如雨後春筍般開業， 然而人的時間有限，要如何找到適合自己的學習環境？「Front-Enter」特別針對前端工程的學習資源，進行蒐集、分類， 期待讓有志成為前端工程師的人，找到最適合自己的學習環境。</div>
           </div>
       </div>
       <div class="index-rwd-select">
@@ -386,6 +383,7 @@ export default {
     }
 
     &-text {
+      width: 750px;
       font-weight: 100;
       text-align: center;
     }
@@ -583,6 +581,7 @@ export default {
     }
 
     &-text {
+      width: 100%;
       font-size: 16px;
       text-align: left;
 

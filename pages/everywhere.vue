@@ -29,7 +29,7 @@ export default {
     return {
       title: '台灣各地',
       frames: [
-        { img: require('@/assets/img/work/e01.jpg'), title: '赫綵電腦', desc: '赫綵的講師具備業界實務經驗，網頁發展日新月異，掌握最新趨勢與資訊最重要，讓你技術不落人後。' },
+        { img: require('@/assets/img/work/e01.jpg'), title: '赫綵電腦', desc: '講師具備業界實務經驗，網頁發展日新月異，掌握最新趨勢與資訊最重要，讓你技術不落人後。' },
         { img: require('@/assets/img/work/e02.jpg'), title: 'Udemy', desc: 'Udemy 為不同類型的專家、講師提供平台，以免費或收費形式提供課程給大眾。' }
 
       ]
