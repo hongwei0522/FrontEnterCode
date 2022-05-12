@@ -42,7 +42,7 @@
         <div class="schoolpage-back">
         <nuxt-link to="/">
             <div class="schoolpage-back-btn">
-            <div>看其他地區</div>
+            <div>看其他學校</div>
             <img class="schoolpage-back-icon" src="@/assets/img/icon/go-arrow.png" alt="arrow back">
             </div>
         </nuxt-link>
@@ -214,7 +214,7 @@ export default {
       background-position-x: center;
       background-position-y: center;
       width: 404px;
-      height: 485px;
+      height: 500px;
     }
 
     &-box {
@@ -313,7 +313,7 @@ export default {
     &-icon {
       width: 14px;
       height: 100%;
-      margin: 4px 0px 0px 10px;
+      margin: 0px 0px 0px 10px;
     }
   }
 }

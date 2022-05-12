@@ -1,5 +1,5 @@
 <template>
-  <el-select v-model="select.current" placeholder="選擇地區">
+  <el-select v-model="select.current" placeholder="選擇學校">
     <el-option
       v-for="option in select.options"
       :key="option.name"
@@ -21,11 +21,17 @@ export default {
   data () {
     return {
       select: {
-        current: '選擇地區',
+        current: '選擇學校',
         options: [
-          { name: '北部', path: '/northern' },
-          { name: '南部', path: '/southern' },
-          { name: '各地', path: '/everywhere' },
+          { name: '彭彭的課程教學', path: '/northern' },
+          { name: '飛肯設計學院', path: '/northern' },
+          { name: '台大資訊系統訓練班', path: '/northern' },
+          { name: 'AppWorks School', path: '/northern' },
+          { name: '五倍紅寶石', path: '/northern' },
+          { name: 'UXabc', path: '/northern' },
+          { name: '六角學院', path: '/southern' },
+          { name: '赫綵電腦', path: '/everywhere' },
+          { name: 'Udemy', path: '/everywhere' },
         ]
       }
     }
@@ -89,6 +95,10 @@ export default {
 .el-select-dropdown__item.selected {
   color: #000000;
   font-weight: bold;
+}
+.el-select-dropdown{
+  background-color: #D8D76F;
+  border-radius: 20px;
 }
 
 </style>
